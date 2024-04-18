@@ -1,27 +1,4 @@
-html {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #4B4B4B;
-  color: #FFF;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.container {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
+/* Header styles */
 .header {
   padding: 20px 0;
   background-color: #000000;
@@ -30,46 +7,45 @@ body {
   align-items: center;
 }
 
-.header h1 {
-  color: #5790DF;
-  text-align: center;
-  margin: 0;
-}
-
-.navbar {
-  text-align: center;
-}
-
-.navbar ul {
-  padding: 0;
-  margin: 10px 0;
-}
-
-.navbar ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.navbar ul li a {
-  color: #FFF;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.navbar ul li a:hover {
-  color: #FF7979;
-}
-
-.footer {
-  background-color: #000000;
-  color: #FFF;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+/* Logo styles */
+.logo {
+  display: flex;
+  justify-content: center; /* Center the logo horizontally */
+  align-items: center; /* Center the logo vertically */
 }
 
 .logo img {
-  max-width: 80%;
+  height: 150px; /* Set the desired height for the logo */
+  width: auto; /* Allow the width to adjust proportionally */
+  max-width: 100%; /* Ensure the logo stays within the bounds of its container */
+}
+
+/* Dropdown styles */
+.right-dropdown {
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.right-dropdown .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.right-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.right-dropdown .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.right-dropdown .dropdown:hover .dropdown-content {
+  display: block;
 }

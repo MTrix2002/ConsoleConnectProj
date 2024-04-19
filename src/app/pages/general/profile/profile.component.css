@@ -9,8 +9,6 @@
   margin-bottom: 20px;
   border-color: #4B4B4B;
   font-size: 1.5em;
-
-
 }
 
 .profile-picture {
@@ -22,12 +20,49 @@
   font-size: 7em;
 }
 
-.first-name,.last-name{
-padding-left: 15px;
-margin-bottom: 20px;
-font-size: 3em;
+.first-name, .last-name {
+  padding-left: 15px;
+  margin-bottom: 20px;
+  font-size: 3em;
+  user-select: none;
 }
 
+.MyPosts {
+  font-size: 3em;
+  user-select: none;
+  text-align: center;
+  padding-left: 1198px;
+  margin-bottom: 20px;
+}
 
+/* Posts styles */
+.posts {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px; /* Added margin-right */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.post {
+  width: calc(33.33% - 20px); /* Adjusted size and spacing */
+  margin-bottom: 20px;
+  margin-right: 300px;
+}
 
+.post img {
+  width: 90%; /* Adjust size as needed */
+  border-radius: 10px;
+}
+
+.post-description {
+  color: #6e5c5c;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.datepost {
+  font-size: 0.9em;
+}

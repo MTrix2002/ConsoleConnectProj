@@ -2,29 +2,30 @@
 
 <!-- Profile picture -->
 <div class="profile-picture">
-    <i class="bi bi-person-circle propic"></i>
-<!--User's name and Full name-->
-
+  <i class="bi bi-person-circle propic"></i>
+  <!-- User's name and Full name -->
   <span class="first-name">Prenom</span>
   <span class="last-name">Nom</span>
 
   <!-- Settings button -->
   <button class="btn btn-all">Add New Post</button>
 
-   <!-- Add Posts button -->
-   <button class="btn btn-all ">Settings</button>
+  <!-- Add Posts button -->
+  <button class="btn btn-all">Settings</button>
 </div>
+
 <br><br>
 <hr>
 <span class="MyPosts">My Posts</span>
 <br><br>
- <!-- Posts -->
- <div class="posts">
+
+<!-- Posts -->
+<div class="posts">
   <!-- Post 1 -->
   <div class="post">
     <img src="../../../../assets/images/WithRiley.jpg" alt="With Riley">
     <h3 class="post-description">posted on <strong class="datepost">{{ actualDate | date: "d/MM/YYYY" }}</strong></h3>
-    <p class="post-description"> Chilling with Riley has never been this fun! </p>
+    <p class="post-description">Chilling with Riley has never been this fun!</p>
   </div>
   <!-- Post 2 -->
   <div class="post">
@@ -32,13 +33,12 @@
     <h3 class="post-description">posted on <strong class="datepost">{{ actualDate | date: "d/MM/YYYY" }}</strong></h3>
     <p class="post-description">Got taught how to play my guitar by Joel!</p>
   </div>
-  <!-- Add more posts here -->
+  <!-- Post 3 -->
   <div class="post">
     <img src="../../../../assets/images/HBOEllie.png" alt="HBO Ellie">
     <h3 class="post-description">posted on <strong class="datepost">{{ actualDate | date: "d/MM/YYYY" }}</strong></h3>
     <p class="post-description">Waking up in another universe got me like...</p>
   </div>
 </div>
-
 
 <app-footer></app-footer>

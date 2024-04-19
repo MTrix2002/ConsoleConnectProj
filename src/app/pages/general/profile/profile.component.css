@@ -20,7 +20,8 @@
   font-size: 7em;
 }
 
-.first-name, .last-name {
+.first-name,
+.last-name {
   padding-left: 15px;
   margin-bottom: 20px;
   font-size: 3em;
@@ -46,13 +47,13 @@
 }
 
 .post {
-  width: calc(33.33% - 20px); /* Adjusted size and spacing */
+  width: calc(33.33% - 40px); /* Adjusted size and spacing */
   margin-bottom: 20px;
-  margin-right: 300px;
+  margin-right: 20px; /* Removed margin-right */
 }
 
 .post img {
-  width: 90%; /* Adjust size as needed */
+  width: 100%; /* Adjust size as needed */
   border-radius: 10px;
 }
 

@@ -31,6 +31,10 @@
   font-size: 2em; /* Adjust as needed */
 }
 
+.bi-grid-3x3-gap-fill{
+  background-color: transparent;
+}
+
 .dropdown-toggle i.bi-grid-3x3-gap-fill {
   margin-right: 10px; /* Adjust as needed */
 }
@@ -60,22 +64,30 @@
   display: block;
 }
 
+/* Ensure proper sizing for the circular profile picture icon container */
 .circular-profile-icon {
   background-color: transparent;
   border: none;
   border-radius: 50%;
   padding: 0;
-  width: 40px;
-  height: 40px;
-  margin-left: 100px;
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.circular-profile-icon i {
-  font-size: 1.5em;
+/* Adjust the size of the bi-person-circle icon */
+.bi-person-circle {
+  font-size: 3em; /* Increase the font size for a larger icon */
   color: white;
 }
+
+/* Ensure the bi-person-circle icon maintains its aspect ratio */
+.bi-person-circle svg {
+  width: 100%; /* Set width to 100% of the parent container */
+  height: auto; /* Allow the height to adjust proportionally */
+}
+
 
 

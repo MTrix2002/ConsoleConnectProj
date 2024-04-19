@@ -10,24 +10,24 @@
 /* Logo styles */
 .logo {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  flex-grow: 10; /* Allow the logo to take up remaining space */
+  justify-content: center;
+  align-items: center;
+  flex-grow: 10;
 }
 
 .logo img {
-  height: 150px; /* Set the desired height for the logo */
-  width: auto; /* Allow the width to adjust proportionally */
-  max-width: 100%; /* Ensure the logo stays within the bounds of its container */
+  height: 150px;
+  width: auto;
+  max-width: 100%;
 }
 
 /* Dropdown styles */
 .right-dropdown {
-  margin-right: 100px; /* Adjust as needed */
-  float: left; /* Float the right dropdown to the right */
+  margin-right: 100px;
+  float: left;
 }
 
-.bi-grid-3x3-gap-fill {
+.bi-grid-3x3-gap-fill,.bi-controller,.bi-exclamation-triangle,.bi-question-circle,.bi-telephone,.bi-house-door  {
   font-size: 2em; /* Adjust as needed */
 }
 
@@ -36,8 +36,8 @@
 }
 
 .right-dropdown .dropdown {
-  position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .right-dropdown .dropdown-content {
@@ -59,3 +59,23 @@
 .right-dropdown .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.circular-profile-icon {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-profile-icon i {
+  font-size: 1.5em;
+  color: white;
+}
+
+

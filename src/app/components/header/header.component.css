@@ -28,7 +28,7 @@
 }
 
 .bi-grid-3x3-gap-fill,.bi-controller,.bi-exclamation-triangle,.bi-question-circle,.bi-telephone,.bi-house-door  {
-  font-size: 2em; /* Adjust as needed */
+  font-size: 2em;
 }
 
 .bi-grid-3x3-gap-fill{
@@ -79,15 +79,35 @@
 
 /* Adjust the size of the bi-person-circle icon */
 .bi-person-circle {
-  font-size: 3em; /* Increase the font size for a larger icon */
+  font-size: 3em;
   color: white;
 }
 
 /* Ensure the bi-person-circle icon maintains its aspect ratio */
 .bi-person-circle svg {
-  width: 100%; /* Set width to 100% of the parent container */
-  height: auto; /* Allow the height to adjust proportionally */
+  width: 100%;
+  height: auto;
 }
+
+.dropdown-toggle{
+  background-color: transparent;
+  border: none;
+}
+
+/* Profile name styles */
+.profile-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.first-name, .last-name {
+  font-size: 0.8em;
+  color: #FFF;
+}
+
 
 
 

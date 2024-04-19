@@ -28,8 +28,8 @@
   float: left;
 }
 
-.bi-grid-3x3-gap-fill,.bi-controller,.bi-exclamation-triangle,.bi-question-circle,.bi-telephone,.bi-house-door  {
-  font-size: 2em;
+.bi-grid-3x3-gap-fill,.bi-controller,.bi-exclamation-triangle,.bi-question-circle,.bi-telephone,.bi-house-door,.bi-person  {
+  font-size: 4em;
 }
 
 .bi-grid-3x3-gap-fill{
@@ -76,6 +76,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.5em;
 }
 
 /* Adjust the size of the bi-person-circle icon */
@@ -105,8 +106,9 @@
 }
 
 .first-name, .last-name {
-  font-size: 0.8em;
+  font-size: 1.1em;
   color: #FFF;
+  margin-top: 1px;
 }
 
 

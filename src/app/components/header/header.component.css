@@ -10,8 +10,9 @@
 /* Logo styles */
 .logo {
   display: flex;
-  justify-content: center; /* Center the logo horizontally */
-  align-items: center; /* Center the logo vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-grow: 10; /* Allow the logo to take up remaining space */
 }
 
 .logo img {
@@ -22,7 +23,16 @@
 
 /* Dropdown styles */
 .right-dropdown {
-  margin-right: 20px; /* Adjust as needed */
+  margin-right: 100px; /* Adjust as needed */
+  float: left; /* Float the right dropdown to the right */
+}
+
+.bi-grid-3x3-gap-fill {
+  font-size: 2em; /* Adjust as needed */
+}
+
+.dropdown-toggle i.bi-grid-3x3-gap-fill {
+  margin-right: 10px; /* Adjust as needed */
 }
 
 .right-dropdown .dropdown {

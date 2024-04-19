@@ -1,29 +1,18 @@
 <header class="header">
-  <div class="left-dropdown">
-    <!-- Left dropdown content -->
-    <div class="dropdown">
-      <button class="dropbtn">Menu</button>
-      <div class="dropdown-content">
-        <ul>
-          <li><a routerLink="">Home</a></li>
-          <li><a routerLink="#">Games</a></li>
-          <li><a routerLink="#">About</a></li>
-          <li><a routerLink="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
   <div class="logo">
     <img src="../../../../assets/images/ConsoleConnectLogo.png" alt="Logo">
   </div>
   <div class="right-dropdown">
-    <!-- Right dropdown content -->
     <div class="dropdown">
-      <button class="dropbtn">Right Dropdown</button>
-      <div class="dropdown-content">
-        <a href="#">Option A</a>
-        <a href="#">Option B</a>
-        <a href="#">Option C</a>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-grid-3x3-gap-fill"></i>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" routerLink="">Home</a>
+        <a class="dropdown-item" routerLink="#">Games</a>
+        <a class="dropdown-item" routerLink="#">About</a>
+        <a class="dropdown-item" routerLink="#">Contact</a>
+        <a class="dropdown-item" routerLink="**">Not Found</a>
       </div>
     </div>
   </div>

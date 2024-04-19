@@ -2,13 +2,19 @@ body {
   font-family: Arial, sans-serif;
   background-color: #4B4B4B;
   color: #FFF;
-  margin: 0;
-  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.gif {
+  width: 800px; /* Adjust as needed */
+  height: 800px; /* Maintain aspect ratio */
 }
 
 .container {
-  width: 80%;
-  margin: 100px auto;
+  max-width: 800px; /* Adjust as needed */
+  margin: 100px auto; /* Keep the margin from the top */
   text-align: center;
 }
 

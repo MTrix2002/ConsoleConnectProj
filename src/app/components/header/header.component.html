@@ -6,33 +6,35 @@
   <div class="right-dropdown">
     <div class="dropdown">
       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="bi bi-grid-3x3-gap-fill"></i>
+        <i class="bi bi-grid-3x3-gap-fill icons"></i>
       </button>
       <!-- Drop Down Menu -->
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" routerLink=""><i class="bi bi-house-door"></i>&nbsp;Home</a>
-        <a class="dropdown-item" routerLink="MonProfile"><i class="bi bi-person"></i>&nbsp;Profile</a>
-        <a class="dropdown-item" routerLink="#"><i class="bi bi-controller"></i>&nbsp;Games</a>
-        <a class="dropdown-item" routerLink="#"><i class="bi bi-question-circle"></i>&nbsp;About</a>
-        <a class="dropdown-item" routerLink="#"><i class="bi bi-telephone"></i>&nbsp;Contact</a>
-        <a class="dropdown-item" routerLink="**"><i class="bi bi-exclamation-triangle"></i>&nbsp;Not Found</a>
+        <a class="dropdown-item" routerLink=""><i class="bi bi-house-door icons"></i>&nbsp;Home</a>
+      <!--<a class="dropdown-item" routerLink="MonProfile"><i class="bi bi-person"></i>&nbsp;Profile</a>-->
+        <a class="dropdown-item" routerLink="#"><i class="bi bi-people icons"></i>&nbsp;Friends</a>
+        <a class="dropdown-item" routerLink="#"><i class="bi bi-question-circle icons"></i>&nbsp;About</a>
+        <a class="dropdown-item" routerLink="#"><i class="bi bi-gear icons"></i>&nbsp;Settings</a>
+        <a class="dropdown-item" routerLink="**"><i class="bi bi-exclamation-triangle icons"></i>&nbsp;Not Found</a>
       </div>
       <!-- Circular profile picture icon -->
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" routerLink=""><i class="bi bi-house-door"></i>&nbsp;Home</a>
-        <a class="dropdown-item" routerLink="#"><i class="bi bi-controller"></i>&nbsp;Games</a>
-        <a class="dropdown-item" routerLink="#"><i class="bi bi-question-circle"></i>&nbsp;About</a>
-        <a class="dropdown-item" routerLink="#"><i class="bi bi-telephone"></i>&nbsp;Contact</a>
-        <a class="dropdown-item" routerLink="**"><i class="bi bi-exclamation-triangle"></i>&nbsp;Not Found</a>
-      </div>
-      <button class="btn btn-secondary circular-profile-icon" type="button">
-        <i class="bi bi-person-circle"></i>
-      </button>
-      <!-- Name -->
-      <div class="profile-name">
-        <br>
-        <span class="first-name">Prénom</span>
-        <span class="last-name">Nom</span>
+
+
+      <!-- Profile Icon Button-->
+      <div class="dropdown profilediv">
+        <button class="btn btn-secondary dropdown-toggle circular-profile-icon" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bi bi-person-circle icons"></i>
+          <div class="profile-name">
+            <br>
+            <span class="first-name">&nbsp;Prénom</span>
+            <span class="last-name">&nbsp;Nom</span>
+          </div>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" routerLink="MonProfile"><i class="bi bi-person icons"></i>&nbsp;Profile</a>
+          <a class="dropdown-item" routerLink="Sign In"><i class="bi bi-person-plus icons"></i>&nbsp;Sign In</a>
+          <a class="dropdown-item" routerLink="Log In/Out"><i class="bi bi-door-open icons"></i>&nbsp;Log in/Log out</a>
+        </div>
       </div>
     </div>
   </div>

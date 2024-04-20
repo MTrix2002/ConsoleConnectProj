@@ -29,7 +29,7 @@
   float: left;
 }
 
-.bi-grid-3x3-gap-fill,.bi-controller,.bi-exclamation-triangle,.bi-question-circle,.bi-telephone,.bi-house-door,.bi-person  {
+.icons{
   font-size: 4em;
 }
 
@@ -107,12 +107,18 @@
 }
 
 .first-name, .last-name {
-  font-size: 1.1em;
+  font-size: 0.9em;
   color: #FFF;
   margin-top: 1px;
   user-select: none;
 }
 
+.profilediv{
+margin-left: 90px;
+}
 
+.profile-button-active {
+  transform: scale(1.2); /* Increase the size of the button */
+}
 
 

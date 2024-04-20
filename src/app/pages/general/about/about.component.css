@@ -1,0 +1,50 @@
+/* Center the page content */
+.container {
+  text-align: center;
+  margin-top: 50px; /* Adjust as needed */
+}
+
+body{
+  margin-top: 100px;
+}
+/* Styling for the title */
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Styling for the description */
+.description {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Styling for the contact info */
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Styling for the contact icons */
+.contact-item i {
+  font-size: 1.5em;
+  margin-right: 5px;
+  border-radius: 50%; /* Make the icons circular */
+  background-color: #4B4B4B; /* Background color for the icons */
+  color: #000000; /* Text color for the icons */
+  padding: 8px; /* Padding for the icons */
+}
+
+/* Styling for the contact labels */
+.contact-label {
+  font-size: 1.2em;
+  margin-right: 20px;
+}
+
+img {
+  width: 360px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add some spacing below the image */
+}

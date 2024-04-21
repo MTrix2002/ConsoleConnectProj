@@ -1,0 +1,44 @@
+<app-header></app-header>
+
+<!-- Profile picture -->
+<div class="profile-picture">
+  <i class="bi bi-person-circle propic"></i>
+  <!-- User's name and Full name -->
+  <span class="first-name">Prenom</span>
+  <span class="last-name">Nom</span>
+
+  <!-- Settings button -->
+  <button class="btn btn-all">Follow</button>
+
+  <!-- Add Posts button -->
+  <button class="btn btn-all">Block</button>
+</div>
+
+<br><br>
+<hr>
+<span class="MyPosts">Friends Posts</span>
+<br><br>
+
+<!-- Posts -->
+<div class="posts">
+  <!-- Post 1 -->
+  <div class="post">
+    <img src="../../../../assets/images/WithRiley.jpg" alt="With Riley">
+    <h3 class="post-description">posted on <strong class="datepost">{{ actualDate | date: "d/MM/YYYY" }}</strong></h3>
+    <p class="post-description">Chilling with Riley has never been this fun!</p>
+  </div>
+  <!-- Post 2 -->
+  <div class="post">
+    <img src="../../../../assets/images/EllieGuitar.jpg" alt="Ellie Guitar">
+    <h3 class="post-description">posted on <strong class="datepost">{{ actualDate | date: "d/MM/YYYY" }}</strong></h3>
+    <p class="post-description">Got taught how to play my guitar by Joel!</p>
+  </div>
+  <!-- Post 3 -->
+  <div class="post">
+    <img src="../../../../assets/images/HBOEllie.png" alt="HBO Ellie">
+    <h3 class="post-description">posted on <strong class="datepost">{{ actualDate | date: "d/MM/YYYY" }}</strong></h3>
+    <p class="post-description">Waking up in another universe got me like...</p>
+  </div>
+</div>
+
+<app-footer></app-footer>

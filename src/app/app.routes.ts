@@ -8,7 +8,7 @@ import { ProfileComponent } from './pages/general/profile/profile.component';
 export const routes: Routes = [
 
   {path: '', component: HomePageComponent},
-  {path: 'MonProfile',component: ProfileComponent},
+  {path: 'MyProfile',component: ProfileComponent},
   {path: 'About',component: AboutComponent},
   {path: 'Friends',component: FriendsComponent},
 

@@ -38,7 +38,7 @@
 }
 
 .dropdown-toggle i.bi-grid-3x3-gap-fill {
-  margin-right: 10px; /* Adjust as needed */
+  margin-right: 10px;
 }
 
 .right-dropdown .dropdown {
@@ -66,27 +66,27 @@
   display: block;
 }
 
-/* Ensure proper sizing for the circular profile picture icon container */
+
 .circular-profile-icon {
   background-color: transparent;
   border: none;
   border-radius: 50%;
   padding: 0;
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
 }
 
-/* Adjust the size of the bi-person-circle icon */
+
 .bi-person-circle {
   font-size: 3em;
   color: white;
 }
 
-/* Ensure the bi-person-circle icon maintains its aspect ratio */
+
 .bi-person-circle svg {
   width: 100%;
   height: auto;
@@ -97,7 +97,7 @@
   border: none;
 }
 
-/* Profile name styles */
+
 .profile-name {
   display: flex;
   flex-direction: column;
@@ -118,7 +118,7 @@ margin-left: 90px;
 }
 
 .profile-button-active {
-  transform: scale(1.2); /* Increase the size of the button */
+  transform: scale(1.2);
 }
 
 

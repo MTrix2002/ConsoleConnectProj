@@ -36,24 +36,24 @@
   margin-bottom: 20px;
 }
 
-/* Posts styles */
+
 .posts {
   margin-top: 50px;
   margin-left: 50px;
-  margin-right: 50px; /* Added margin-right */
+  margin-right: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .post {
-  width: calc(33.33% - 40px); /* Adjusted size and spacing */
+  width: calc(33.33% - 40px);
   margin-bottom: 20px;
-  margin-right: 20px; /* Removed margin-right */
+  margin-right: 20px;
 }
 
 .post img {
-  width: 100%; /* Adjust size as needed */
+  width: 100%;
   border-radius: 10px;
 }
 

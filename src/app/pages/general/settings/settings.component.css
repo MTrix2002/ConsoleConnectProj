@@ -11,6 +11,10 @@
   transition: transform 0.3s ease;
 }
 
+.btn-danger{
+  background-color: red;
+}
+
 .btn-all:hover {
   transform: scale(1.1);
 }

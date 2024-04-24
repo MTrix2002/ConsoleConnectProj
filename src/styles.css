@@ -1,2 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+#audio-player {
+  position: fixed;
+  bottom: -100px; /* Adjust as needed */
+}
 

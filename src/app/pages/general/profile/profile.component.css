@@ -11,6 +11,10 @@
   font-size: 1.5em;
 }
 
+.btn-all:hover {
+  transform: scale(1.1);
+}
+
 .profile-picture {
   margin-left: 700px;
   margin-top: 20px;

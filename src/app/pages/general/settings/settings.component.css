@@ -1,0 +1,25 @@
+.btn-all {
+  display: block;
+  background-color: #4B4B4B;
+  color: #FFF;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 5px;
+  margin: 0 auto 20px;
+  border-color: #4B4B4B;
+  font-size: 1.5em;
+  transition: transform 0.3s ease;
+}
+
+.btn-all:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  text-align: center;
+}
+
+.description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}

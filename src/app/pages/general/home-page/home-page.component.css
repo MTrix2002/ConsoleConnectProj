@@ -1,22 +1,168 @@
+/* General layout styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #4B4B4B;
-  color: #FFF;
-  height: 100vh;
-  overflow: hidden;
-
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
 }
+
+
 
 .container {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  position: relative;
-  transform: translateY(-50%);
-  padding-top: 130px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+}
 
+.col-md-6 {
+  flex: 1;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
 
+h2 {
+  color: #333;
+}
 
+/* Icon styles */
+.icon {
+  font-size: 2rem;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
 
+.icon:hover {
+  transform: scale(1.2);
+}
+
+/* Heart icon */
+.heart-icon {
+  color: #FF7979;
+  margin-right: 20px; /* Increase the margin for spacing */
+}
+
+/* Filled Heart icon */
+.heart-icon i.bi-heart-fill {
+  display: none;
+}
+
+.heart-icon:hover i.bi-heart {
+  display: none;
+}
+
+.heart-icon:hover i.bi-heart-fill {
+  display: inline-block;
+}
+
+/* Message icon */
+.message-icon {
+  color: #5790DF;
+  margin-right: 20px; /* Increase the margin for spacing */
+}
+
+/* Filled Message icon */
+.message-icon i.bi-chat-fill {
+  display: none;
+}
+
+.message-icon:hover i.bi-chat-fill {
+  display: inline-block;
+}
+
+.message-icon:hover i.bi-chat {
+  display: none;
+}
+
+/* Save icon */
+.save-icon {
+  color: #B7D65E;
+  margin-right: 20px; /* Increase the margin for spacing */
+}
+
+/* Filled Save icon */
+.save-icon i.bi-bookmark-fill {
+  display: none;
+}
+
+.save-icon:hover i.bi-bookmark {
+  display: none;
+}
+
+.save-icon:hover i.bi-bookmark-fill {
+  display: inline-block;
+}
+
+/* Description section */
+.description {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Center the comments section */
+.comments {
+  text-align: center;
+}
+
+/* Circular profile icon styles */
+.profile-icon {
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: #ccc;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+/* Adjust the height of the comment box */
+.comment-box {
+  margin-bottom: 100px;
+}
+
+/* Adjust the styling for the comment textbox */
+textarea {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+/* Styling for the send button */
+button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Style for existing comments */
+.existing-comments {
+  margin-top: 20px;
+}
+
+.fake-comment {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.fake-comment p {
+  margin: 0;
+}
+
+.profile-icon {
+  margin-right: 10px;
+}

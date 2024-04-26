@@ -23,17 +23,29 @@
   max-width: 100%;
 }
 
+/* Logo link styles */
+.logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.logo a:hover {
+  transform: scale(1.1); /* Increase size on hover */
+}
+
 /* Dropdown styles */
 .right-dropdown {
   margin-right: 100px;
   float: left;
 }
 
-.icons{
+.icons {
   font-size: 4em;
 }
 
-.bi-grid-3x3-gap-fill{
+.bi-grid-3x3-gap-fill {
   background-color: transparent;
 }
 
@@ -66,7 +78,6 @@
   display: block;
 }
 
-
 .circular-profile-icon {
   background-color: transparent;
   border: none;
@@ -80,45 +91,44 @@
   font-size: 1.5em;
 }
 
-
 .bi-person-circle {
   font-size: 3em;
   color: white;
 }
-
 
 .bi-person-circle svg {
   width: 100%;
   height: auto;
 }
 
-.dropdown-toggle{
+.dropdown-toggle {
   background-color: transparent;
   border: none;
 }
-
 
 .profile-name {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
-.first-name, .last-name {
+.first-name,
+.last-name {
   font-size: 0.9em;
-  color: #FFF;
+  color: #fff;
   margin-top: 1px;
   user-select: none;
 }
 
-.profilediv{
-margin-left: 90px;
+.profilediv {
+  margin-left: 90px;
 }
 
 .profile-button-active {
   transform: scale(1.2);
 }
 
-
+.logo {
+  transform: scale(1.1);
+}

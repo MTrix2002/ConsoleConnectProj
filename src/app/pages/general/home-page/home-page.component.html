@@ -1,10 +1,78 @@
 <app-header></app-header>
-
-    <div class="container">
-        <h2>Welcome to Console Connect!</h2>
-        <p>Your ultimate gaming blog for all things gaming.</p>
-        <p>Explore the latest games, connect with fellow gamers, and stay updated with gaming news.</p>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="title"> Post </h2>
+      <div class="description box">
+        <p>ConsoleConnect is a social network dedicated to passionate gamers of PlayStation, Xbox, Switch, and PC. Users can chat 💬, share photos 📸, and interact with other players. The administrators provide the latest news for each console, game release dates 🎮, and a monthly TOP 5. There are also features to add/remove friends 👫 and a private mode 🔒. ConsoleConnect is the ideal place to connect gamers worldwide 🌍.</p>
+      </div>
+      <div class="d-flex justify-content-center align-items-center mt-3">
+        <div class="icon heart-icon mr-3">
+          <i class="bi bi-heart"></i>
+          <i class="bi bi-heart-fill"></i>
+        </div>
+        <div class="icon message-icon">
+          <i class="bi bi-chat"></i>
+          <i class="bi bi-chat-fill"></i>
+        </div>
+        <div class="icon save-icon">
+          <i class="bi bi-bookmark"></i>
+          <i class="bi bi-bookmark-fill"></i>
+        </div>
+      </div>
     </div>
+    <div class="col-md-6">
+      <div class="comments mt-3">
+        <h5 class="title"> Comments </h5>
+        <div class="existing-comments">
+
+           <!--This is the Fake Comments Section-->
+          <div class="fake-comment">
+            <div class="d-flex align-items-center">
+              <div class="profile-icon">
+                <i class="bi bi-person-circle"></i>
+              </div>
+              <div class="bubble">
+                <p>Fake Comment 1</p>
+              </div>
+            </div>
+          </div>
+          <div class="fake-comment">
+            <div class="d-flex align-items-center">
+              <div class="profile-icon">
+                <i class="bi bi-person-circle"></i>
+              </div>
+              <div class="bubble">
+                <p>Fake Comment 2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fake-comment">
+          <div class="d-flex align-items-center">
+            <div class="profile-icon">
+              <i class="bi bi-person-circle"></i>
+            </div>
+            <div class="bubble">
+              <p>Fake Comment 3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--This is the Write a Comment Section-->
+        <div class="comment-box mt-3">
+          <div class="d-flex align-items-center">
+            <div class="profile-icon">
+              <i class="bi bi-person-circle"></i>
+            </div>
+            <textarea rows="3" placeholder="Write a comment..." class="form-control"></textarea>
+            <button class="btn btn-primary ml-2">Send</button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
 <app-footer></app-footer>
-
-

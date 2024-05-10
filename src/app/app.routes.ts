@@ -6,6 +6,8 @@ import { LogInComponent } from './pages/general/log-in/log-in.component';
 import { NotFoundComponent } from './pages/general/not-found/not-found.component';
 import { ProfileComponent } from './pages/general/profile/profile.component';
 import { SettingsComponent } from './pages/general/settings/settings.component';
+import { SignupComponent } from './pages/general/signup/signup.component';
+
 
 export const routes: Routes = [
 
@@ -15,6 +17,7 @@ export const routes: Routes = [
   {path: 'Subscriptions',component: FriendsComponent},
   {path: 'Settings',component: SettingsComponent},
   {path: 'LogIn', component: LogInComponent},
+  {path: 'Signup',component: SignupComponent},
 
   {path: '**', component: NotFoundComponent},
 ];

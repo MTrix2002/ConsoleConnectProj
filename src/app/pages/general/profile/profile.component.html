@@ -1,44 +1,180 @@
 <app-header></app-header>
-
-<!-- Profile picture -->
-<div class="profile-picture">
-  <i class="bi bi-person-circle propic"></i>
-  <!-- User's name and Full name -->
-  <span class="first-name">Prenom</span>
-  <span class="last-name">Nom</span>
-
-  <!-- Settings button -->
-  <button class="btn btn-all">Add New Post</button>
-
-  <!-- Add Posts button -->
-  <button class="btn btn-all">Settings</button>
-</div>
-
-<br><br>
-<hr>
-<span class="MyPosts">My Posts</span>
-<br><br>
-
-<!-- Posts -->
-<div class="posts">
-  <!-- Post 1 -->
-  <div class="post">
-    <img src="../../../../assets/images/WithRiley.jpg" alt="With Riley">
-    <h3 class="post-description">posted on <strong class="datepost">{{ actualDate | date: "d/MM/YYYY" }}</strong></h3>
-    <p class="post-description">Chilling with Riley has never been this fun!</p>
+<section class="profile-description">
+  <div class="container">
+    <div class="img-profile-wraper">
+      <div
+        class="img-profile"
+        style="background-image:url('https://instagram.fcgh12-1.fna.fbcdn.net/v/t51.2885-19/s150x150/45302107_1895490433882324_4122498035211042816_n.jpg?_nc_ht=instagram.fcgh12-1.fna.fbcdn.net&_nc_ohc=MgUUSjOGUlYAX-pLmdj&oh=e62167cf4ac382d906874f24e00d9609&oe=5EA1A8CE')"
+      ></div>
+      <!--img-profile-->
+    </div>
+    <!--img-profile-wraper-->
+    <div class="profile-text">
+      <div class="profile-name">
+        <span>Prenom Nom</span>
+        <a href="/#">Editar</a>
+        <a href="/#"><i class="fas fa-cogs"></i></a>
+      </div>
+      <!--profile-name-->
+    </div>
+    <br /><br /><br />
+    <!--profile-text-->
+    <div class="profile-info">
+      <p><strong>50</strong> publicações</p>
+      <p><strong>50</strong> seguidores</p>
+      <p><strong>50</strong> seguindo</p>
+    </div>
+    <br />
+    <div class="profile-description">
+      <h3>Nom Prenom</h3>
+      <p>Welcome to your profile page!</p>
+    </div>
+    <!--profile-info-->
+    <div class="clear"></div>
   </div>
-  <!-- Post 2 -->
-  <div class="post">
-    <img src="../../../../assets/images/EllieGuitar.jpg" alt="Ellie Guitar">
-    <h3 class="post-description">posted on <strong class="datepost">{{ actualDate | date: "d/MM/YYYY" }}</strong></h3>
-    <p class="post-description">Got taught how to play my guitar by Joel!</p>
-  </div>
-  <!-- Post 3 -->
-  <div class="post">
-    <img src="../../../../assets/images/HBOEllie.png" alt="HBO Ellie">
-    <h3 class="post-description">posted on <strong class="datepost">{{ actualDate | date: "d/MM/YYYY" }}</strong></h3>
-    <p class="post-description">Waking up in another universe got me like...</p>
-  </div>
-</div>
+  <!--container-->
+</section>
+<!--profile-description-->
 
+<section class="feed">
+  <div class="container">
+    <div class="line-feed">
+      <div tab="publish" class="single-line-name">
+        <div style="display:block;" class="line-mark"></div>
+        <p style="font-weight:bold;">Posts</p>
+      </div>
+      <div tab="igtv" class="single-line-name">
+        <div style="width:40px;" class="line-mark"></div>
+        <p>Saves</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--feed-->
+
+<section id="publish">
+  <div class="container">
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Posts);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Posts);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Posts);"
+      class="publish-single"
+    ></div>
+    <div class="clear"></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Posts);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Posts);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Posts);"
+      class="publish-single"
+    ></div>
+  </div>
+</section>
+<!--publish-->
+
+<section id="igtv">
+  <div class="container">
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Igtv);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Igtv);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Igtv);"
+      class="publish-single"
+    ></div>
+    <div class="clear"></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Igtv);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Igtv);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Igtv);"
+      class="publish-single"
+    ></div>
+  </div>
+</section>
+<!--igtv-->
+
+<section id="save">
+  <div class="container">
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Saves);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Saves);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Saves);"
+      class="publish-single"
+    ></div>
+    <div class="clear"></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Saves);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Saves);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/5b5b5b/808080/?text=Saves);"
+      class="publish-single"
+    ></div>
+  </div>
+</section>
+<!--save-->
+
+<section id="marked">
+  <div class="container">
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Markeds);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Markeds);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Markeds);"
+      class="publish-single"
+    ></div>
+    <div class="clear"></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Markeds);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Markeds);"
+      class="publish-single"
+    ></div>
+    <div
+      style="background-image: url(https://via.placeholder.com/500/00FFFF/808080/?text=Markeds);"
+      class="publish-single"
+    ></div>
+  </div>
+</section>
+
+<script src="profile.js"></script>
 <app-footer></app-footer>
